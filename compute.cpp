@@ -18,7 +18,7 @@ using namespace std;
  */
 void printVal(double val) {
 	// Backup current cout precision, restore it later.
-	auto precisionBackup = cout.precision();
+	int precisionBackup = cout.precision();
 	
 	// Set precision to 10 decimal places. 
 	// Using Log10 + 1 to find length of integer part of a double.
