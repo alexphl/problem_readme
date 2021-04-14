@@ -6,7 +6,7 @@
 #include <iostream>
 #include <iomanip>
 
-#define NUM_VALUES 6			// Expected number of values.
+#define NUM_VALUES 100			// Expected number of values.
 
 using namespace std;
 
